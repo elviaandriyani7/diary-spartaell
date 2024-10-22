@@ -66,4 +66,5 @@ def save_diary():
     return jsonify({'message': 'Data was saved!'}), 201  
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=3000, debug=True)
+
